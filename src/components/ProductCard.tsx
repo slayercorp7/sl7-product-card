@@ -1,5 +1,5 @@
 import styles from "../styles/styles.module.css";
-
+import React from "react";
 import { useProduct } from "../hooks/useProduct";
 import { createContext } from "react";
 import {
@@ -9,9 +9,9 @@ import {
   InitialValues,
   ProductCardHandlers,
 } from "../interfaces/interfaces";
-import React from "react";
 
 export const ProductContext = createContext({} as ProductContextProps);
+
 const { Provider } = ProductContext;
 
 export interface Props {

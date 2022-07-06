@@ -7,7 +7,7 @@ const App = () => {
   const product = {
     id: '1',
     title: 'compra',
-    img: './coffe-mug.png',
+    img: './coffe-mugCompra.png',
   };
   return (
     <>

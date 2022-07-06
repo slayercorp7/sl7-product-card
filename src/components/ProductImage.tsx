@@ -10,6 +10,7 @@ import React from 'react';
   style?: React.CSSProperties
 }
 export const ProductImage = ({ img, className, style}: Props) => {
+  
     const { product } = useContext(ProductContext);
     let imgToShow: string;
     if (img) {
